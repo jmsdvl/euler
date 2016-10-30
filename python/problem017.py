@@ -11,6 +11,9 @@ forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20
 letters. The use of "and" when writing out numbers is in compliance with British
 usage.
 """
+# I've always hated these problems; off-by-one errors are very easy to make and
+# not quite so easy to track down
+
 DEBUG = False
 
 NUMBER_DICT_FILE = '../data/number_word_dict.txt'
